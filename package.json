@@ -1,19 +1,19 @@
 {
-  "name": "zapbot",
+  "name": "bot-atendimento-whatsapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Bot de atendimento para WhatsApp",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "wwebjs": "node src/index-wwebjs.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "wppconnect"
+  ],
+  "author": "semlimtes7",
   "license": "ISC",
   "dependencies": {
-    "@wppconnect-team/wppconnect": "^1.32.3",
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.24.0"
+    "@wppconnect-team/wppconnect": "^1.29.0"
   }
 }
